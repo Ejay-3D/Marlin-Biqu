@@ -1,4 +1,5 @@
-# Marlin 3D Printer Firmware Pour BIQU B1 3D Electroshop ( Machine vendu aprés le 1er octobre ) Pour les machines précedentes veuillez nous contacter. 
+# Marlin 3D Printer Firmware Pour BIQU B1 3D Electroshop 
+( Machine vendu aprés le 1er octobre ) Pour les machines précedentes veuillez nous contacter. 
 
 GitHub] (https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ! [contributeurs GitHub](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
