@@ -61,6 +61,4 @@ Nous espérons que nous serons en mesure d'étendre cette réponse pour inclure 
 BIQU B1 
 ## Licence
 
-Marlin est publié sous la [licence GPL] (/LICENSE) parce que nous croyons au développement ouvert. La GPL est assortie de droits et d'obligations. Que vous utilisiez le micrologiciel Marlin comme pilote pour votre o...
-
-Traduit avec www.DeepL.com/Translator (version gratuite)
+Marlin est publié sous la [licence GPL] (/LICENSE) parce que nous croyons au développement ouvert. La GPL est assortie de droits et d'obligations. 
