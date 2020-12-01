@@ -30,13 +30,11 @@ Nom du dossier | Propriétés de la variante
 B1_STOCK | Si vous avez construit votre B1 à partir de la boîte et que vous n'avez rien fait d'autre, alors cette branche est faite pour vous.
 B1_ABL_HIGH_RES | Si vous avez ajouté un capteur ABL (BL Touch ou autre) et que vous souhaitez une résolution plus élevée pour le sondage du lit en raison d'un gauchissement légèrement plus important et que vous êtes heureux de payer une petite pénalité de temps au début de chaque impression, alors cette branche est pour vous. Ceci fait une sonde 4 x 4.
 
-![Step1]
+![Etape 1]
 
 Une fois que vous avez sélectionné votre dossier, vous aurez accès au code source (Marlin uniquement) ainsi qu'au fichier binaire compilé (le microprogramme que vous devez mettre sur votre carte SD) pour ce dossier. La plupart d'entre vous ne se soucieront pas du code source et sont là pour le microprogramme compilé, mais j'ai quand même mis le code source à disposition. Pour télécharger le microprogramme pour Marlin, suivez simplement les étapes indiquées dans les images suivantes.
 
-![Étape2](/step2_firmware.png)
-
-! [Step2](/step3_download.png)
+![Étape2]
 
 Pour télécharger le micrologiciel TFT, il suffit de localiser le fichier zip TFT dans le répertoire racine et de le télécharger. Les instructions pour l'installation des deux logiciels suivent.
 
