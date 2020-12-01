@@ -26,7 +26,7 @@ Chaque variante de B1 est stockée dans un dossier. Vous n'avez pas besoin de co
 
 Les dossiers  ou variantes B1 disponibles sont :
 
-Nom de la branche | Propriétés de la variante
+Nom du dossier | Propriétés de la variante
 ------------ | -------------
 B1_STOCK | Si vous avez construit votre B1 à partir de la boîte et que vous n'avez rien fait d'autre, alors cette branche est faite pour vous.
 B1_ABL_HIGH_RES | Si vous avez ajouté un capteur ABL (BL Touch ou autre) et que vous souhaitez une résolution plus élevée pour le sondage du lit en raison d'un gauchissement légèrement plus important et que vous êtes heureux de payer une petite pénalité de temps au début de chaque impression, alors cette branche est pour vous. Ceci fait une sonde 4 x 4.
