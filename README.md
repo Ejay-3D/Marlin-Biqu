@@ -7,7 +7,7 @@ GitHub] (https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
-Vous êtes ici parce que vous cherchez le dernier firmware BIQU B1 et vous trouverez, nous l'espérons, ce que vous cherchez ! Lisez ci-dessous pour savoir comment.
+Vous êtes ici parce que vous cherchez le dernier firmware BIQU B1 et vous trouverez, nous l'espérons, ce que vous cherchez. Lisez ci-dessous pour savoir comment.
 
 ## Versions actuelles de Marlin et TFT
 
