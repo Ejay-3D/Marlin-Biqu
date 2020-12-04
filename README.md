@@ -1,5 +1,5 @@
 # Marlin 3D Printer Firmware Pour BIQU B1 3D Electroshop 
-( Machine vendu aprés le 1er octobre ) Pour les machines précedentes veuillez nous contacter. 
+( Machine vendu aprés le 1er octobre ) Pour les machines précedentes (sans eeprom ) : https://github.com/looxonline/Marlin/
 
 Vous êtes ici parce que vous cherchez le dernier firmware BIQU B1 et vous trouverez, nous l'espérons, ce que vous cherchez ! Lisez ci-dessous pour savoir comment.
 
@@ -61,6 +61,4 @@ Nous espérons que nous serons en mesure d'étendre cette réponse pour inclure 
 BIQU B1 
 ## Licence
 
-Marlin est publié sous la [licence GPL] (/LICENSE) parce que nous croyons au développement ouvert. La GPL est assortie de droits et d'obligations. Que vous utilisiez le micrologiciel Marlin comme pilote pour votre o...
-
-Traduit avec www.DeepL.com/Translator (version gratuite)
+Marlin est publié sous la [licence GPL] (/LICENSE) parce que nous croyons au développement ouvert. La GPL est assortie de droits et d'obligations. 
