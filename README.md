@@ -1,5 +1,6 @@
 # Marlin 3D Printer Firmware Pour BIQU B1 3D Electroshop 
-( Machine vendu aprés le 1er octobre ) Pour les machines précedentes (sans eeprom ) : https://github.com/looxonline/Marlin/
+( Machine vendu aprés le 25 octobre 2020 ) Pour les machines précedentes (sans eeprom ) : https://github.com/looxonline/Marlin/
+
 
 Vous êtes ici parce que vous cherchez le dernier firmware BIQU B1 et vous trouverez, nous l'espérons, ce que vous cherchez ! Lisez ci-dessous pour savoir comment.
 
