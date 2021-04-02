@@ -1,0 +1,17 @@
+                              ;BIQU Default End Gcode
+G91                            ;Relative positioning
+G1 E-2 F2700                   ;Retract a bit
+G1 E-2 Z0.2 F2400              ;Retract a bit more and raise Z
+G1 X5 Y5 F3000                 ;Wipe out
+G1 Z10                         ;Raise Z by 10mm
+G90                            ;Return to absolute positionning
+
+G1 X0 Y{machine_depth}         ;TaDaaaa
+M106 S0                        ;Turn-off fan
+M104 S0                        ;Turn-off hotend
+M140 S0                        ;Turn-off bed
+
+M84 X Y E                      ;Disable all steppers but Z
+M150 B0 R0 U0           ; Turn Off LEd 
+M109 R120      ; Wait for Themerature go down to 120 Degres 
+M81        ; Auto Shut down With  Module Relay 1.2
