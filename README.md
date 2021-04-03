@@ -1,7 +1,3 @@
-# Marlin 3D Printer Firmware Pour BIQU B1 3D Electroshop 
-( Machine vendu aprés le 25 octobre 2020 et avant le 25 janvier ) Autre version ici  : https://github.com/looxonline/Marlin/
-
-
 Vous êtes ici parce que vous cherchez le dernier firmware BIQU B1 et vous trouverez, nous l'espérons, ce que vous cherchez ! Lisez ci-dessous pour savoir comment.
 
 ## Versions actuelles de Marlin et TFT
@@ -38,8 +34,8 @@ Pour télécharger le micrologiciel TFT, il suffit de localiser le fichier zip T
 
 Avant d'installer le micrologiciel Marlin, prenez note des points suivants :
 
-1. Les versions ABL de ce micrologiciel utilisent la sonde comme butée de fin de course. Je préfère cette méthode à l'utilisation d'un interrupteur dédié au z-endstop. Cela signifie que vous devrez retirer le montant du z-endstop qui est vissé à l'arrière de l'extrusion 4020 de gauche, en position verticale.
-2. Les versions ABL de ce microprogramme sont programmées pour appliquer tous les "z babysteps" au décalage du z. Cela signifie que si vous enregistrez vos babysteps, la buse démarrera toujours au bon endroit pour chaque impression, indépendamment de ce que vous faites à votre lit, à condition de ne pas modifier la position de la touche BL entre les impressions (par exemple, démonter le hotend).
+1. Les versions ABL de ce micrologiciel utilisent la sonde comme butée de fin de course. Je préfère cette méthode à l'utilisation d'un interrupteur dédié au z-endstop. Cela signifie que vous devrez retirer le montant du z-endstop qui est vissé à l'arrière du profilé 4020 de gauche, en position verticale.
+2. Les versions ABL de ce microprogramme sont programmées pour appliquer tous les "z babysteps" au décalage du z. Cela signifie que si vous enregistrez vos babysteps, la buse démarrera toujours au bon endroit pour chaque impression, indépendamment de ce que vous faites à votre lit, à condition de ne pas modifier la position du 3D Touch entre les impressions (par exemple, démonter le hotend).
 3. Les versions ABL de ce micrologiciel supposent que la sonde est située dans la position où elle est utilisée lors de l'utilisation du support d'impression. Si vous utilisez le support par @thiskeithb de thingiverse qui place la sonde dans le centre avant du support du hotend, vous devrez alors ajuster les décalages de votre sonde z en utilisant l'écran LCD. En utilisant l'interface unifiée, allez dans le menu --> Paramètres --> Machine --> Paramètre --> Décalage de la sonde et changez les valeurs à : X = -1,5 Y = -34 Z = -1,5.
 
 Pour installer Marlin : une fois que vous avez téléchargé le fichier du firmware, il suffit de le copier sur votre carte SD dans la carte mère (pas TFT) et de redémarrer. Une fois que c'est fait, vous devriez avoir un fichier FIRMWARE.CUR sur la carte SD. Cela signifie que cela a fonctionné.
