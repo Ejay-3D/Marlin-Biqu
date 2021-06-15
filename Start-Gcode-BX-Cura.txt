@@ -13,6 +13,7 @@ M117 Homing axes Z
 G28 Z                             
 G34    ; Z Sync
 M117 ABL Probing
+G28 Z        
 G29
 G1 X4.1 Y20 Z10 F5000.0 
 M117 Getting the extruder up to temp
