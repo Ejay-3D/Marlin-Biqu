@@ -17,7 +17,8 @@ M117 ABL Probing			      ; Set LCD Message: "ABL Probing". ABL= Automatic Bed Le
 G28 Z					      ; Home the Z axes (Position d'origine des axes Z).
 G34					      ; Sync and align both Z Steppers
 G29					      ; Bed levelling (Nivellement du lit).
-G1 X4.1 Y20 Z10 F5000.0 		      ; Set Nozzle to start position
+M117 Park nozzle to start purge line ; Set LCD Message: "Park nozzle to start purge line" (Définir le message LCD : Parcage de la buse au début de la ligne de purge)
+G1 X4.1 Y20 Z10 F5000.0 		      ; Set Nozzle to start position : Parcage de la buse au début de la ligne de purge)
 M117 Getting the extruder up to temp	      ; Set LCD Message: "Getting the extruder up to temp" (Définir le message LCD : "Mise à température de l'extrudeur").
 M104 S{material_print_temperature_layer_0}    ; Set Extruder temperature first layer (Chauffage de l'extrudeur sans attendre pour la première couche).
 M109 S{material_print_temperature_layer_0}    ; Wait for Extruder temperature first layer (Attente chauffage de l'extrudeur pour la première couche).
