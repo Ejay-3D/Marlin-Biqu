@@ -5,6 +5,7 @@ M82					      ; E Absolute (E Absolu : permet de forcer G91 et de mettre l'axe E
 M106 S0					      ; Set FAN Speed. (Réglage de la vitesse du ventilateur, ici à 0).
 M117 Homing ALL axes			      ; Set LCD Message: "Homing ALL axes" (Définir le message LCD : "Position d'origine de TOUS les axes").
 G28					      ; Go to origin on all axes : Auto Home (Retour à la position d'origine de tous les axes : Position d'origine Automatique).
+G1 X125 Y125 Z1                          ;Placing nozzle to center to heat the inductive sensor as well for more precision ( On place le la tête d'impression au centre pour aussi chauffer le sensor ce qui donnera plus de precision au palpage ) 
 M117 Getting the heatbed up to temp!	      ; Set LCD Message: "Getting the heatbed up to temp!" (Définir le message LCD : "Mise à température du lit chauffant !").
 M140 S{material_bed_temperature_layer_0}      ; Set Bed Temperature first layer (Chauffage du lit sans attendre pour la première couche).
 M190 S{material_bed_temperature_layer_0}      ; Wait for Bed Temperature first layer (Attente chauffage du lit pour la première couche).
