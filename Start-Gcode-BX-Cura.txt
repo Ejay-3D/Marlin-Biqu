@@ -1,5 +1,4 @@
-  ; BIQU BX Start G-code (G-code de démarrage).
-
+; BIQU BX Start G-code (G-code de démarrage).
 G90	                                        ; Absolute Positioning (Positionnement en mode Absolu).
 M82                                         ; E Absolute (E Absolu : permet de forcer G91 et de mettre l'extrudeur E en mode Absolu).
 M106 S0                                     ; Set FAN Speed. (Réglage de la vitesse du ventilateur, ici à 0).
