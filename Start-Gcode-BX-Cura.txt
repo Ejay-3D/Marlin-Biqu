@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 ; BIQU BX Start G-code (G-code de démarrage).
+=======
+  ; BIQU BX Start G-code (G-code de démarrage).
+
+>>>>>>> Stashed changes
 G90	                                        ; Absolute Positioning (Positionnement en mode Absolu).
 M82                                         ; E Absolute (E Absolu : permet de forcer G91 et de mettre l'extrudeur E en mode Absolu).
 M106 S0                                     ; Set FAN Speed. (Réglage de la vitesse du ventilateur, ici à 0).
@@ -12,10 +17,19 @@ G4 S60                                      ; Waiting for sensor getting the hea
 M117 Pre-heating the extruder               ; Set LCD Message: "Pre-heating the extruder" (Définir le message LCD : "Préchauffage de l'extrudeur").
 M104 S180                                   ; Set Hotend Temperature (Réglage de la température de la hotend, ici à 180°C).
 M117 Homing axes Z                          ; Set LCD Message: "Homing axes Z" (Définir le message LCD : "Retour à la position d'origine des axes Z").
+<<<<<<< Updated upstream
 G28 Z                                       ; Home the Z axes (Position d'origine des axes Z)A
 G34                                         ; Sync and align both Z Steppers (Synchronisation et alignement des deux moteurs pas-à-pas de l'axe Z).
 G29                                         ; Bed levelling (Nivellement du lit).
 M117 ABL Probing                            ; Set LCD Message: "ABL Probing". ABL= Automatic Bed Leveling (Définir le message LCD : "Capteur ABL". ABL = Nivellement du Lit Automatique).
+=======
+G28 Z                                       ; Home the Z axes (Position d'origine des axes Z).
+G34                                         ; Z Steppers Auto-Alignment: Z axes Sync (Alignement automatique des moteurs pas-à-pas en Z : Synchronisation des axes Z).
+M117 ABL Probing                            ; Set LCD Message: "ABL Probing". ABL= Automatic Bed Leveling (Définir le message LCD : "Capteur ABL". ABL = Nivellement du Lit Automatique).
+G28 Z                                       ; Home the Z axes (Position d'origine des axes Z)A
+G34                                         ; Sync and align both Z Steppers (Synchronisation et alignement des deux moteurs pas-à-pas de l'axe Z).
+G29                                         ; Bed levelling (Nivellement du lit).
+>>>>>>> Stashed changes
 M117 Park nozzle to start purge line        ; Set LCD Message: "Park nozzle to start purge line" (Définir le message LCD : Parcage de la buse au début de la ligne de purge).
 G1 X4.1 Y20 Z10 F5000.0                     ; Set Nozzle to start position : Parcage de la buse au début de la ligne de purge).
 M117 Getting the extruder up to temp	      ; Set LCD Message: "Getting the extruder up to temp" (Définir le message LCD : "Mise à température de l'extrudeur").

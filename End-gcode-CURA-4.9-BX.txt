@@ -5,9 +5,19 @@ G1 E-2 Z0.2 F2400              ;Retract a bit more and raise Z
 G1 X5 Y5 F3000                 ;Wipe out
 G1 Z10                         ;Raise Z by 10mm
 G90                            ;Return to absolute positionning
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 G1 X0 Y{machine_depth}         ;TaDaaaa
 M106 S0                        ;Turn-off fan
 M104 S0                        ;Turn-off hotend
 M140 S0                        ;Turn-off bed
+<<<<<<< Updated upstream
 M84 X Y E                      ;Disable all steppers but Z
 M150 B0 R0 U0           ; Turn Off LEd
+=======
+
+M84 X Y E                      ;Disable all steppers but Z
+M150 B0 R0 U0           ; Turn Off LEd
+>>>>>>> Stashed changes
