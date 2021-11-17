@@ -344,7 +344,7 @@
     #define AUTO_POWER_CHAMBER_FAN
     //#define AUTO_POWER_E_TEMP        50 // (°C) Turn on PSU over this temperature
     //#define AUTO_POWER_CHAMBER_TEMP  30 // (°C) Turn on PSU over this temperature
-    #define POWER_TIMEOUT 30
+   // #define POWER_TIMEOUT 30
   #endif
 #endif
 
@@ -982,7 +982,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -1.5, -35.5, -1.5 }
+#define NOZZLE_TO_PROBE_OFFSET { -1.5, -35.5, -0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
